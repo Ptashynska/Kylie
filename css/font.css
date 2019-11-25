@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Gotham ProNarrow Medium';
+    src: url('../font/ofont.ru_Gotham_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gotham ProNarrow Bold';
+    src: url('../font/ofont.ru_Gotham_Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+
+}
