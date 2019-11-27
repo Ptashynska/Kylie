@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Gotham ProNarrow Medium';
-    src: url('../font/ofont.ru_Gotham_Medium.ttf') format('truetype');
+    font-family: 'Gotham Pro Medium';
+    src: url('../font/ofont.ru_Gotham Pro Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -13,3 +13,43 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('../font/ofont.ru_Bebas Neue Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham ProNarrow Light';
+    src: url('../font/ofont.ru_Gotham Pro Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gotham ProNarrow Regular';
+    src: url('../font/ofont.ru_Gotham Pro Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../font/ofont.ru_Gotham Pro Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('../font/ofont.ru_DejaVu Sans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
