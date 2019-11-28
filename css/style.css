@@ -594,7 +594,7 @@ body {
     }
 
     .btn:hover {
-        border-bottom: 2px solid #d24169;
+        border-bottom: none;
     }
 
     /* ABOUT */
