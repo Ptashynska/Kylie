@@ -21,6 +21,8 @@ body {
     font-family: 'Gotham Pro Medium', sans-serif;
     font-weight: 400;
     font-style: normal;
+    background: #f0ebe8;
+
 }
 
 .img-fluid {
@@ -36,7 +38,6 @@ body {
     margin-left: -15px;
 
 }
-
 
 .col-12 {
     -ms-flex: 0 0 100%;
@@ -84,8 +85,16 @@ body {
     padding-left: 15px;
 }
 
-
-
+.wrapper {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1554px;
+    min-width: 320px;
+    margin: 0 auto;
+}
 
 /* HEADER */
 
@@ -100,26 +109,11 @@ body {
     padding: 20px 0 14px;
 }
 
-.wrapper {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1560px;
-    min-width: 320px;
-    margin: 0 auto;
-}
-
-
-
-/* HEADER */
 
 .wrapper-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 
@@ -128,11 +122,8 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 10px;
-
 }
 
-.logo,
-.header-content {}
 
 .logo {
     margin-right: 10px;
@@ -149,16 +140,13 @@ body {
     line-height: 20px;
     font-family: 'Bebas Neue Bold';
     color: #333;
-
 }
-
 
 .header-content-descr__p {
     font-family: 'Gotham Pro Light';
     font-size: .75rem;
     color: #d4416a;
     line-height: 19px;
-
 }
 
 .logo__link {
@@ -206,8 +194,6 @@ body {
     background: #f1f1f1 url(../img/feature-bg-wave-320.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
-    /*     
-    border: 1px solid red; */
 }
 
 
@@ -217,7 +203,6 @@ body {
     flex-direction: column;
     background: orange;
     border: 1px solid black;
-
 }
 
 .single-product-thumb {
@@ -245,8 +230,6 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: 24px;
-
-
 }
 
 .single-product-title_h2_pink {
@@ -294,7 +277,6 @@ body {
 
 .btn>span {
     font-family: 'Gotham ProNarrow Light';
-
 }
 
 .product-discount {
@@ -307,8 +289,6 @@ body {
     width: 73px;
     height: 73px;
     font-family: 'DejaVu Sans';
-
-
 }
 
 .product-discount>span {
@@ -322,7 +302,6 @@ body {
     padding: 0;
     line-height: 1;
     color: #fff;
-
 }
 
 .single-product-text {
@@ -343,26 +322,19 @@ body {
     text-align: center;
     line-height: 24px;
     font-weight: 400;
-
 }
 
 /* ABOUT  */
-
 
 .about-area {
     background: #f0ebe8 url(../img/about-wave-bg.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
-
 }
 
 .about-title {
-
     top: -232px;
-
 }
-
-.about-title__h2 {}
 
 .about-thumb {
     padding-top: 80px;
@@ -372,7 +344,6 @@ body {
 .about-text {
     order: 0;
 }
-
 
 .single-product-text__p>strong {
     font-weight: bold;
@@ -393,32 +364,30 @@ body {
 
 @media (min-width: 1003px) and (max-width: 1250px) {
 
+    .header-area {
+        background: #f0ebe8;
+    }
 
     .feature-area {
-        background: #dfe2d4 url(../img/8.jpg) repeat-x;
+        background: #f0ebe8;
+    }
+
+    .wrapper-inner-feature {
+        background: url(../img/6.png) no-repeat;
         background-size: contain;
+    }
+
+    .wrapper-inner-about {
+        background: #f0ebe8 url(../img/about-bg-wave-1240.jpg) repeat-x;
+        background-position: bottom;
+    }
+
+    .about-area {
+        background: #f0ebe8;
     }
 
     .not-visible {
         display: none;
-    }
-
-    /* HEADER */
-
-
-    .header-area {
-        background: #f0ebe8;
-
-    }
-
-
-
-
-    .about-area {
-        background: #f0ebe8 url(../img/about-bg-wave-1240.jpg);
-        background-repeat: repeat-x;
-        background-position: bottom;
-
     }
 
 
@@ -429,7 +398,6 @@ body {
         max-width: 50%;
         position: relative;
         width: 50%;
-
     }
 
     .wrapper {
@@ -448,7 +416,6 @@ body {
     }
 
     .header-left-side {
-
         margin-bottom: 0;
     }
 
@@ -460,24 +427,16 @@ body {
         font-size: .875rem;
     }
 
-
-
     .header-content-title__h1 {
         font-size: 1.8125rem;
         word-spacing: 2px;
-
-
     }
 
-
     .contact {
-
         display: flex;
         flex-direction: column;
         padding-bottom: 0;
         align-items: flex-end;
-
-
     }
 
     .contact-item {
@@ -500,7 +459,6 @@ body {
     .contact__number {
         font-size: .875rem;
     }
-
 
     .nav {
         display: block;
@@ -532,13 +490,10 @@ body {
         cursor: pointer;
     }
 
-    /* MAIN-CONTENT */
-
     .col-12-transform {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
-
     }
 
     .col-4 {
@@ -547,24 +502,16 @@ body {
         max-width: 33.33%;
     }
 
-
     .col-8 {
         -ms-flex: 0 0 66.66%;
         flex: 0 0 66.66%;
         max-width: 66.66%;
     }
 
-
-
-    .feature-area {
-        background-color: e0e2d4;
-    }
-
     .single-product-title {
         position: static;
         padding-top: 66px;
         margin-bottom: 23px;
-
     }
 
     .single-product-title__h2 {
@@ -604,7 +551,6 @@ body {
         padding-bottom: 34px;
     }
 
-
     .product-thumb {
         width: 150px;
     }
@@ -613,13 +559,11 @@ body {
         width: 150px;
     }
 
-
     .single-product-thumb {
         padding-top: 40px;
     }
 
     .product-discount {
-
         top: -41px;
         left: -48px;
     }
@@ -638,18 +582,6 @@ body {
         height: 116px;
     }
 
-
-
-
-    .wrapper-inner-feature {
-        background: url(../img/6.png) no-repeat;
-        background-size: contain;
-    }
-
-
-
-
-
     .single-product-thumb {
         justify-content: flex-start;
         padding-left: 6px;
@@ -664,24 +596,16 @@ body {
         border-bottom: 2px solid #d24169;
     }
 
-
-
     /* ABOUT */
 
-
-
     .about-title__h2 {
-
         font-size: 1.75rem;
-
     }
-
 
     .about-content {
         padding-left: 0;
         flex-direction: column;
         align-items: center;
-
     }
 
 
@@ -696,39 +620,46 @@ body {
         padding-left: 0;
     }
 
+    .btn:hover {
+        cursor: pointer;
+    }
 
 
 }
 
 @media (min-width: 1250px) {
 
-
-    .feature-area {
-        background: #dfe2d4 url(../img/8.jpg) repeat-x;
-        background-size: contain;
-    }
-
     .wrapper-inner-feature {
         background: url(../img/7.png) no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
-
-
-
-
-    /* HEADER */
 
     .header-area {
         background: #f0ebe8;
     }
 
+    .feature-area {
+        background: #f0ebe8;
+    }
 
+    .wrapper-inner-feature {
+        background: url(../img/6.png) no-repeat;
+        background-size: contain;
+        background-position-x: center;
+    }
 
+    .wrapper-inner-about {
+        background: #f0ebe8 url(../img/about-bg-wave-1240.jpg) repeat-x;
+        background-position: bottom;
+    }
+
+    .about-area {
+        background: #f0ebe8;
+    }
 
     .not-visible {
         display: none;
     }
-
 
     .col-menu {
         -ms-flex: 0 0 50%;
@@ -740,7 +671,6 @@ body {
         padding-right: 15px;
         padding-left: 15px;
     }
-
 
     .col-logo,
     .col-contact {
@@ -761,7 +691,6 @@ body {
     .row {
         align-items: center;
     }
-
 
     .header-top {
         padding: 35px 20px 45px;
@@ -790,23 +719,17 @@ body {
     .header-content-title__h1 {
         font-size: 1.8125rem;
         word-spacing: 2px;
-
-
     }
 
     .header-content-descr__p {
         font-size: .875rem;
     }
 
-
-
     .contact {
         display: flex;
         flex-direction: column;
         padding-bottom: 0;
         align-items: flex-end;
-
-
     }
 
     .contact-item {
@@ -830,11 +753,9 @@ body {
         font-family: 'Gotham Pro Medium';
         font-size: .875rem;
         color: #333;
-
     }
 
     .contact__number>span {
-
         font-family: 'Gotham Pro Light';
     }
 
@@ -849,8 +770,9 @@ body {
         justify-content: space-between;
     }
 
-
     .menu__link {
+        display: block;
+        position: relative;
         font-family: 'Gotham ProNarrow Regular';
         display: block;
         font-size: 1rem;
@@ -858,8 +780,6 @@ body {
         text-transform: uppercase;
         margin-right: 5px;
         line-height: 24px;
-
-
     }
 
     .menu__link_active {
@@ -886,16 +806,21 @@ body {
         left: 0;
     }
 
-
-    /* MAIN-CONTENT */
+    .menu__link_active:hover::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: none;
+        bottom: 0;
+        left: 0;
+    }
 
     .col-12-transform {
         -ms-flex: 0 0 41.66%;
         flex: 0 0 41.66%;
         max-width: 41.66%;
-
     }
-
 
     .col-12-transform-bigger {
         -ms-flex: 0 0 58.33%;
@@ -910,33 +835,27 @@ body {
         max-width: 33.33%;
     }
 
-
     .col-8 {
         -ms-flex: 0 0 66.66%;
         flex: 0 0 66.66%;
         max-width: 66.66%;
     }
 
-
-
     .wrapper-inner-about {
         position: relative;
     }
-
 
     .wrapper-inner-about::after {
         position: absolute;
         content: "";
         background: url(../img/stick-lip.png) no-repeat;
         background-size: contain;
-        width: 334px;
+        width: 390px;
         height: 349px;
-        bottom: 19px;
+        bottom: 43px;
         right: -29px;
         background-position: -23px;
-
     }
-
 
     .single-product-thumb {
         padding-top: 76px;
@@ -946,7 +865,6 @@ body {
         height: 100%;
         margin-bottom: 0;
         width: 100%;
-
     }
 
     .product-thumb__img {
@@ -963,12 +881,10 @@ body {
         font-size: 1.75rem;
         top: 40px;
         left: 50px;
-
     }
 
 
     .single-product-thumb {
-
         padding-top: 78px;
     }
 
@@ -976,7 +892,6 @@ body {
         position: static;
         padding-top: 112px;
         margin-bottom: 40px;
-
     }
 
     .single-product-title__h2 {
@@ -1021,9 +936,6 @@ body {
         border-bottom: 2px solid #d24169;
     }
 
-
-
-
     /* ABOUT */
 
     .about-text {
@@ -1031,9 +943,7 @@ body {
     }
 
     .about-title__h2 {
-
         font-size: 2.25rem;
-
     }
 
     .single-product-text__p {
@@ -1046,7 +956,6 @@ body {
         padding-left: 0;
         flex-direction: column;
         align-items: center;
-
     }
 
     .about-text {
@@ -1064,7 +973,6 @@ body {
         padding-left: 0;
     }
 
-
     .about-thumb__img {
         width: 332px;
     }
@@ -1077,20 +985,20 @@ body {
         position: relative;
     }
 
-
-
     .about-text {
         padding-right: 305px;
-
     }
 
     .btn-wrapper-about {
-        margin-bottom: 100px;
-        padding-top: 26px;
+        margin-bottom: 0;
+        padding-bottom: 180px;
         align-self: flex-start;
         margin-left: 186px;
     }
 
+    .btn:hover {
+        cursor: pointer;
+    }
 
 
 }
