@@ -269,10 +269,11 @@ body {
     font-size: .875rem;
     text-transform: uppercase;
     font-weight: 700;
-    border-bottom: 2px solid #ab3456;
+    border-bottom: 5px solid #ab3456;
     font-family: 'Gotham ProNarrow Bold';
     word-spacing: 2px;
     line-height: 21px;
+    height: 65px;
 }
 
 .btn>span {
@@ -362,7 +363,7 @@ body {
     padding: 0 21px;
 }
 
-@media (min-width: 1003px) and (max-width: 1250px) {
+@media (min-width: 1003px) and (max-width: 1450px) {
 
     .header-area {
         background: #f0ebe8;
@@ -627,7 +628,7 @@ body {
 
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1451px) {
 
     .wrapper-inner-feature {
         background: url(../img/7.png) no-repeat;
@@ -933,7 +934,7 @@ body {
     }
 
     .btn:hover {
-        border-bottom: 2px solid #d24169;
+        border-bottom: 5px solid #d24169;
     }
 
     /* ABOUT */
@@ -998,6 +999,7 @@ body {
 
     .btn:hover {
         cursor: pointer;
+        border: none;
     }
 
 
