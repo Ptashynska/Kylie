@@ -165,15 +165,21 @@ body {
     margin-right: 5px;
 }
 
-.contact__number {
+.contact__number,
+.contact__number__link {
+    display: block;
     font-family: 'Gotham Pro Medium';
-    font-size: .8125rem;
-    font-weight: normal;
+    font-size: .875rem;
     color: #333;
 }
 
-.contact__number>span {
-    color: #a4a1a0;
+.contact__number__link:hover {
+    color: #d4416a;
+}
+
+
+.contact__number_light{
+    font-family: 'Gotham Pro Light';
 }
 
 .contact__img {
@@ -189,14 +195,11 @@ body {
 
 /* FEATURE */
 
-
 .feature-area {
     background: #f1f1f1 url(../img/feature-bg-wave-320.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
 }
-
-
 
 .single-product {
     display: flex;
@@ -243,7 +246,6 @@ body {
     right: 7%
 }
 
-
 .single-product-thumb {
     padding-top: 100px;
     display: flex;
@@ -276,6 +278,13 @@ body {
     height: 65px;
 }
 
+.btn:hover {
+    border-bottom: none;
+    cursor: pointer;
+}
+
+
+
 .btn>span {
     font-family: 'Gotham ProNarrow Light';
 }
@@ -295,14 +304,15 @@ body {
 .product-discount>span {
     font-family: 'Gotham Pro Medium';
     position: absolute;
-    top: 20px;
+    top: 16px;
     font-size: 1rem;
-    left: 25px;
+    left: 23px;
     transform: rotate(24deg);
     margin: 0;
     padding: 0;
     line-height: 1;
     color: #fff;
+    width: 10px;
 }
 
 .single-product-text {
@@ -391,7 +401,6 @@ body {
         display: none;
     }
 
-
     .col-logo,
     .col-contact {
         -ms-flex: 0 0 50%;
@@ -459,6 +468,18 @@ body {
 
     .contact__number {
         font-size: .875rem;
+    }
+
+    .contact__number,
+    .contact__number__link {
+        display: block;
+        font-family: 'Gotham Pro Medium';
+        font-size: .875rem;
+        color: #333;
+    }
+
+   .contact__number_light{
+        font-family: 'Gotham Pro Light';
     }
 
     .nav {
@@ -595,6 +616,7 @@ body {
 
     .btn:hover {
         border-bottom: none;
+        cursor: pointer;
     }
 
     /* ABOUT */
@@ -750,13 +772,16 @@ body {
         margin-bottom: 5px;
     }
 
-    .contact__number {
+ 
+    .contact__number,
+    .contact__number__link {
+        display: block;
         font-family: 'Gotham Pro Medium';
         font-size: .875rem;
         color: #333;
     }
 
-    .contact__number>span {
+   .contact__number_light{
         font-family: 'Gotham Pro Light';
     }
 
